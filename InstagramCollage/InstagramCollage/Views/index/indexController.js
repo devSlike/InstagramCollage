@@ -11,5 +11,10 @@
     function IndexController() {
         var vm = this;
         vm.name = 'Index';
+        vm.loginInstagram = loginInstagram;
+
+        function loginInstagram() {
+            vm.name = 'Login';
+        }
     }
 })();

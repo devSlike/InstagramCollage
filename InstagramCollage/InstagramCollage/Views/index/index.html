@@ -1,3 +1,5 @@
-﻿<div>
-    {{indexCtrl.name}}
+﻿<div class="row">
+    {{indexCtrl.name}}<br/>
+    <a href="https://instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=http://localhost:20373&response_type=token">Login</a>
+    <button ng-click="indexCtrl.loginInstagram()">Login Instagram</button>
 </div>
