@@ -174,6 +174,8 @@
     <Content Include="bower_components\angular-route\angular-route.js" />
     <Content Include="bower_components\angular-route\angular-route.min.js" />
     <Content Include="bower_components\angular-route\index.js" />
+    <Content Include="bower_components\angular-uri\.gitignore" />
+    <Content Include="bower_components\angular-uri\angular-uri.js" />
     <Content Include="bower_components\angular\angular-csp.css" />
     <Content Include="bower_components\angular\angular.js" />
     <Content Include="bower_components\angular\angular.min.js" />
@@ -291,6 +293,17 @@
     <Content Include="bower_components\jquery\src\var\support.js" />
     <Content Include="bower_components\jquery\src\var\toString.js" />
     <Content Include="bower_components\jquery\src\wrap.js" />
+    <Content Include="bower_components\uri.js\LICENSE.txt" />
+    <Content Include="bower_components\uri.js\src\IPv6.js" />
+    <Content Include="bower_components\uri.js\src\jquery.URI.js" />
+    <Content Include="bower_components\uri.js\src\jquery.URI.min.js" />
+    <Content Include="bower_components\uri.js\src\punycode.js" />
+    <Content Include="bower_components\uri.js\src\SecondLevelDomains.js" />
+    <Content Include="bower_components\uri.js\src\URI.fragmentQuery.js" />
+    <Content Include="bower_components\uri.js\src\URI.fragmentURI.js" />
+    <Content Include="bower_components\uri.js\src\URI.js" />
+    <Content Include="bower_components\uri.js\src\URI.min.js" />
+    <Content Include="bower_components\uri.js\src\URITemplate.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -407,6 +420,13 @@
     <Content Include="bower_components\angular-route\bower.json" />
     <Content Include="bower_components\angular-route\package.json" />
     <Content Include="bower_components\angular-route\README.md" />
+    <Content Include="bower_components\angular-uri\.bower.json" />
+    <Content Include="bower_components\angular-uri\bower.json" />
+    <Content Include="bower_components\angular-uri\README.md" />
+    <Content Include="bower_components\uri.js\.bower.json" />
+    <Content Include="bower_components\uri.js\bower.json" />
+    <Content Include="bower_components\uri.js\contributing.md" />
+    <Content Include="bower_components\uri.js\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -424,6 +444,7 @@
     <Content Include="Views\app\app.js" />
     <Content Include="Views\index\indexController.js" />
     <Content Include="Views\index\index.html" />
+    <Content Include="Views\services\instagramService.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -450,7 +471,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\services\" />
     <Folder Include="Views\templates\" />
   </ItemGroup>
   <ItemGroup>

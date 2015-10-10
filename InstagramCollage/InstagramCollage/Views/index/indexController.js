@@ -6,15 +6,16 @@
         .controller('IndexController', IndexController);
 
     IndexController.$inject = [
+        'InstagramService'
     ];
 
-    function IndexController() {
+    function IndexController(instagramService) {
         var vm = this;
         vm.name = 'Index';
-        vm.loginInstagram = loginInstagram;
+        vm.login = loginInstagram;
 
         function loginInstagram() {
-            vm.name = 'Login';
+            instagramService.login();
         }
     }
 })();
